@@ -24,6 +24,9 @@ You will need to create the server folder yourself and put it in the root direct
 Open up another terminal and cd into the server folder. Do this:
 
 npm init -y
+
+and then 
+
 npm install cors dotenv express nodemon openai
 
 
