@@ -29,6 +29,9 @@ and then
 
 npm install cors dotenv express nodemon openai
 
+In package.json (in the server folder), be sure to change the scripts section to remove the "test": "blah blah" and replace it with "server": "nodemon server".
+Also, remove the "main": "index.js"
+Also, add a line that says "type": "module"
 
 To run the server, use npm run server in one command line terminal. Then, to run the client, go into another command line terminal and run npm run dev. 
 On both terminals you must be in the proper directory (the server directory and the client directory respectively).
